@@ -1,5 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 56" width="1200" height="56" role="presentation">
-<path d="M40 38C240 4 330 52 560 30S900 6 1130 30" fill="none" stroke="#0a0a0a" stroke-width="1.8" stroke-dasharray="6 7" stroke-linecap="round"/>
+<style>
+.l{fill:#ffffff;stroke:#0a0a0a;stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round}
+.n{fill:none;stroke:#0a0a0a;stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round}
+.k{fill:#0a0a0a;stroke:#0a0a0a;stroke-width:2.2;stroke-linejoin:round}
+.wl{fill:none;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.a{fill:#ff6a1a;stroke:none}
+.sans{font-family:'Segoe UI','Helvetica Neue',Arial,'Noto Sans',sans-serif} .mono{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+
+@keyframes march{to{stroke-dashoffset:-26}}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+@keyframes shadow{0%,100%{transform:scale(1);opacity:.35}50%{transform:scale(.7);opacity:.2}}
+.route{animation:march 2.2s linear infinite}
+.pin{animation:bob 2.4s ease-in-out infinite}
+.pinshadow{transform-box:fill-box;transform-origin:center;animation:shadow 2.4s ease-in-out infinite}
+
+@media (prefers-reduced-motion: reduce){*{animation:none !important}}
+</style><path class="route" d="M40 38C240 4 330 52 560 30S900 6 1130 30" fill="none" stroke="#0a0a0a" stroke-width="1.8" stroke-dasharray="6 7" stroke-linecap="round"/>
 <circle cx="40" cy="38" r="6" fill="#0a0a0a"/>
-<path d="M1130 30l-10-17a11.5 11.5 0 1 1 20 0z" fill="#ff6a1a"/><circle cx="1130" cy="12" r="4" fill="#ffffff"/>
+<ellipse class="pinshadow" cx="1130" cy="33" rx="8" ry="2.5" fill="#0a0a0a" opacity=".3"/>
+<g class="pin"><path d="M1130 30l-10-17a11.5 11.5 0 1 1 20 0z" fill="#ff6a1a"/><circle cx="1130" cy="12" r="4" fill="#ffffff"/></g>
 </svg>

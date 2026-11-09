@@ -5,6 +5,13 @@
   </picture>
 </div>
 
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/rotator-dark.svg">
+    <img alt="I build: project management apps, food ordering and menu management, SaaS products, APIs and backend integrations." src="assets/rotator-light.svg" width="100%">
+  </picture>
+</div>
+
 <br>
 
 I'm **Linh**, a frontend developer in Hanoi. Since 2024 I've worked at **VAiX Group**, building web apps for Japanese clients. Most of them aren't flashy products: they're the systems a business runs on — orders, stock, quotes, schedules, site records.

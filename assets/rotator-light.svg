@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 52" width="1200" height="52" role="img" aria-label="I design and build: project management apps, food ordering and menu management, SaaS products, APIs and backend integrations">
+<style>
+.l{fill:#ffffff;stroke:#0a0a0a;stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round}
+.n{fill:none;stroke:#0a0a0a;stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round}
+.k{fill:#0a0a0a;stroke:#0a0a0a;stroke-width:2.2;stroke-linejoin:round}
+.wl{fill:none;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.a{fill:#ff6a1a;stroke:none}
+.sans{font-family:'Segoe UI','Helvetica Neue',Arial,'Noto Sans',sans-serif} .mono{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+
+@keyframes show{0%{opacity:0;transform:translateY(8px)}4%{opacity:1;transform:none}22%{opacity:1;transform:none}26%{opacity:0;transform:translateY(-8px)}100%{opacity:0}}
+@keyframes cur{0%,55%,100%{opacity:1}65%,90%{opacity:0}}
+.ph{opacity:0;animation:show 12s ease-in-out infinite}
+.cur{animation:cur 1s steps(1) infinite}
+
+@media (prefers-reduced-motion: reduce){*{animation:none !important}}
+</style><text class="mono" x="64" y="32" font-size="16" letter-spacing="1" fill="#5c5c5c">I BUILD →</text>
+<text class="sans ph" x="170" y="33" font-size="22" font-weight="700" fill="#0a0a0a" style="animation-delay:0s">project management apps</text>
+<text class="sans ph" x="170" y="33" font-size="22" font-weight="700" fill="#0a0a0a" style="animation-delay:3s">food ordering and menu management</text>
+<text class="sans ph" x="170" y="33" font-size="22" font-weight="700" fill="#0a0a0a" style="animation-delay:6s">SaaS products</text>
+<text class="sans ph" x="170" y="33" font-size="22" font-weight="700" fill="#0a0a0a" style="animation-delay:9s">APIs and backend integrations</text>
+<rect class="cur" x="168" y="12" width="2" height="26" fill="#ff6a1a" opacity="0"/>
+</svg>
