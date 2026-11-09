@@ -1,8 +1,10 @@
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-    <img alt="Vương Đình Linh — frontend developer in Hanoi. I turn complex systems into interfaces people actually enjoy using." src="assets/banner-light.svg" width="100%">
-  </picture>
+  <a href="https://portfolio-linhdev.vercel.app">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+      <img alt="Vương Đình Linh — frontend developer in Hanoi. I turn complex systems into interfaces people actually enjoy using. Open the portfolio." src="assets/banner-light.svg" width="100%">
+    </picture>
+  </a>
 </div>
 
 <div align="center">
@@ -17,6 +19,8 @@
 I'm **Linh**, a frontend developer in Hanoi. Since 2024 I've worked at **VAiX Group**, building web apps for Japanese clients. Most of them aren't flashy products: they're the systems a business runs on — orders, stock, quotes, schedules, site records.
 
 I started on the frontend, then took the backend on one project too: the FedEx and eBay integrations, the database move and the deployment. I like owning a feature from the screen to the database, and I don't call it done until there's a test report.
+
+**Portfolio →** [portfolio-linhdev.vercel.app](https://portfolio-linhdev.vercel.app) &nbsp;·&nbsp; available in English and Tiếng Việt.
 
 <div align="center">
   <picture>
@@ -70,4 +74,4 @@ Client and product names stay private, so these are described by what they do.
 
 I'm open to freelance projects: project management, food ordering and SaaS. Tell me what you're working on, any time. I'm in Hanoi (UTC+7).
 
-**Email** [linhdev297@gmail.com](mailto:linhdev297@gmail.com) · **LinkedIn** [linh-dinh](https://www.linkedin.com/in/linh-dinh-a55905443) · **GitHub** [linhdev29](https://github.com/linhdev29)
+**Portfolio** [portfolio-linhdev.vercel.app](https://portfolio-linhdev.vercel.app) · **Email** [linhdev297@gmail.com](mailto:linhdev297@gmail.com) · **LinkedIn** [linh-dinh](https://www.linkedin.com/in/linh-dinh-a55905443) · **GitHub** [linhdev29](https://github.com/linhdev29)
