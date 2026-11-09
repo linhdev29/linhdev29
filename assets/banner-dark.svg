@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460" width="1200" height="460" role="img" aria-label="Vương Đình Linh, frontend developer in Hanoi">
+<style>
+.l{fill:#0d1117;stroke:#e6edf3;stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round}
+.n{fill:none;stroke:#e6edf3;stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round}
+.k{fill:#e6edf3;stroke:#e6edf3;stroke-width:2.2;stroke-linejoin:round}
+.wl{fill:none;stroke:#0d1117;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.a{fill:#ff6a1a;stroke:none}
+.sans{font-family:'Segoe UI','Helvetica Neue',Arial,'Noto Sans',sans-serif} .mono{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+</style>
+<defs>
+  <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="13" cy="13" r="1.1" fill="#30363d"/></pattern>
+  <radialGradient id="fade" cx="50%" cy="50%" r="62%"><stop offset="0.55" stop-color="#000"/><stop offset="1" stop-color="#fff"/></radialGradient>
+  <mask id="edge"><rect width="1200" height="460" fill="url(#fade)"/></mask>
+</defs>
+<rect width="1200" height="460" fill="url(#dots)" mask="url(#edge)"/>
+<g fill="none" stroke="#484f58" stroke-width="1.5" stroke-linecap="round">
+  <path d="M14 34V14h20"/><path d="M1186 34V14H1166"/><path d="M14 426v20h20"/><path d="M1186 426v20H1166"/>
+</g><g transform="translate(655 8) scale(0.63)">
+
+  <!-- hex icons -->
+  <g class="px" data-d="26"><g id="float-hex">
+    <path class="l" d="M372 40l30 0 15 26-15 26h-30l-15-26z" transform="translate(30 -4)"/>
+    <path class="k" d="M342 60l30 0 15 26-15 26h-30l-15-26z" transform="translate(-4 4)"/>
+    <path class="wl" d="M330 94c14-14 30-18 46-14M334 104c14-10 28-14 42-10" />
+  </g></g>
+
+  <!-- monitor -->
+  <g id="monitor">
+    <rect class="l" x="130" y="140" width="500" height="320" rx="2"/>
+    <rect class="l" x="175" y="176" width="410" height="250"/>
+    <path id="screen-shade" class="k" d="M470 426h115v-48z"/>
+  </g>
+
+  <!-- left panel: code -->
+  <g class="px" data-d="16"><g id="float-code">
+    <rect id="code-frame" class="l" x="40" y="200" width="205" height="195"/>
+    <path id="code-gutter" class="n" d="M62 224v150"/>
+    <g class="k code-bars">
+      <rect x="78" y="224" width="70" height="12" rx="2"/>
+      <rect x="96" y="246" width="100" height="12" rx="2"/>
+      <rect x="96" y="268" width="62" height="12" rx="2"/>
+      <rect x="114" y="290" width="88" height="12" rx="2"/>
+      <rect x="96" y="334" width="76" height="12" rx="2"/>
+      <rect x="78" y="356" width="48" height="12" rx="2"/>
+    </g>
+    <rect id="accent-code" class="a" x="114" y="312" width="64" height="12" rx="2"/>
+  </g></g>
+
+  <!-- right panel: performance donut -->
+  <g class="px" data-d="20"><g id="float-perf">
+    <rect id="perf-frame" class="l" x="440" y="100" width="285" height="195"/>
+    <g id="donut" transform="translate(520 198)">
+      <circle class="l" r="52"/><circle class="l" r="22"/>
+      <path class="k" d="M0-52A52 52 0 0 1 46 -24L20 -11A22 22 0 0 0 0-22Z"/>
+      <path id="accent-seg" class="a" d="M46-24A52 52 0 0 1 52 0L22 0A22 22 0 0 0 20-11Z"/>
+      <path class="k" d="M-6 52A52 52 0 0 0 36 38L16 16A22 22 0 0 1-6 22Z" transform="rotate(30)"/>
+    </g>
+    <path class="n perf-line" d="M578 150h40l16 14M578 252h36"/>
+    <circle class="k perf-dot" cx="640" cy="167" r="5"/><circle class="k perf-dot" cx="622" cy="252" r="5"/>
+    <path class="n perf-text" d="M656 167h56M656 180h40M634 252h70M634 265h46"/>
+  </g></g>
+
+  <!-- person -->
+  <g id="person">
+    <g id="head">
+      <path id="head-shape" class="k" d="M335 268c0-34 22-62 50-62s50 28 50 62c0 36-20 62-50 62s-50-26-50-62z"/>
+      <g id="hair">
+        <circle class="k" cx="352" cy="224" r="19"/><circle class="k" cx="380" cy="208" r="20"/>
+        <circle class="k" cx="410" cy="212" r="19"/><circle class="k" cx="428" cy="236" r="16"/>
+      </g>
+      <path class="wl" d="M336 270c-8 0-10 12-2 16M434 270c8 0 10 12 2 16" stroke-width="1.6"/>
+    </g>
+    <path id="neck" class="l" d="M368 326h34v42h-34z"/>
+    <path id="collar" class="k" d="M352 372c10 12 56 12 66 0v-10c-10 10-56 10-66 0z"/>
+    <path class="wl" d="M358 372c12 8 42 8 54 0" stroke-width="1.6"/>
+    <path id="fill-ink-torso" class="k" d="M255 560c-2-90 24-168 90-188h80c64 20 94 98 94 188z"/>
+    <path class="wl" d="M312 440l12-14 12 14z" stroke-width="1.8"/>
+    <path class="wl" d="M420 438l10 8-4 12z" stroke-width="1.8"/>
+    <path id="accent-tri" class="l" d="M462 470l14-6-3 16z" stroke-width="1.8" style="fill:#ff6a1a"/>
+    <path class="wl" d="M296 480v34M300 470v6" stroke-width="1.6"/>
+    <!-- arm to mouse -->
+    <path id="arm" style="fill:none;stroke:#e6edf3;stroke-width:42;stroke-linecap:round;stroke-linejoin:round" d="M492 446l42 62 54-52"/>
+    <path class="wl" d="M584 470l18 16" stroke-width="2"/>
+    <g id="hand"><g transform="translate(608 434) rotate(-24)">
+      <rect class="l" x="-17" y="-6" width="34" height="32" rx="9"/>
+      <rect class="l" x="-17" y="-32" width="9" height="30" rx="4.5"/>
+      <rect class="l" x="-6" y="-37" width="9" height="34" rx="4.5"/>
+      <rect class="l" x="5" y="-33" width="9" height="30" rx="4.5"/>
+      <rect class="l" x="15" y="-24" width="8" height="24" rx="4" transform="rotate(14 19 -12)"/>
+    </g></g>
+  </g>
+
+  <!-- desk -->
+  <g id="desk">
+    <rect class="l" x="70" y="552" width="660" height="22"/>
+    <path class="n" d="M180 574l-34 112M620 574l34 112"/>
+  </g>
+
+  <!-- chair -->
+  <g id="chair">
+    <path class="l" d="M300 574l-30 112h262l-30-112z"/>
+    <path class="l" d="M300 440a16 16 0 0 1 16-16h138a16 16 0 0 1 16 16v118a16 16 0 0 1-16 16H316a16 16 0 0 1-16-16z" transform="translate(-2 40)"/>
+    <path class="n" d="M352 522c20 10 50 10 70 0"/>
+  </g>
+
+  <!-- books + mug -->
+  <g id="props">
+    <path id="books" class="k" d="M600 520v-30a8 8 0 0 1 8-8h128v38z"/>
+    <path class="wl" d="M608 502h120"/>
+    <path id="coaster" class="k" d="M622 482l4-8h92l4 8z"/>
+    <path class="l mug" d="M646 380h54v70a8 8 0 0 1-8 8h-38a8 8 0 0 1-8-8z" transform="translate(0 6)"/>
+    <path class="l mug" d="M700 400a16 16 0 0 1 0 32" transform="translate(0 6)"/>
+    <path class="n mug-tea" d="M650 410c10-8 18 6 28-2s16 4 22-2" transform="translate(0 6)"/>
+    <path id="steam" class="n" d="M662 366c-6-8 6-10 0-20M680 366c-6-8 6-10 0-20" stroke-width="1.8"/>
+  </g>
+</g>
+<text class="mono" x="64" y="112" font-size="14" letter-spacing="2.2" fill="#8b949e" textLength="392" lengthAdjust="spacing">FRONTEND DEVELOPER · HANOI · UTC+7</text>
+<text class="sans" x="64" y="196" font-size="68" font-weight="800" fill="#e6edf3" textLength="540" lengthAdjust="spacingAndGlyphs">Vương Đình Linh</text>
+<text class="sans" x="64" y="252" font-size="27" font-weight="600" fill="#e6edf3" textLength="398" lengthAdjust="spacingAndGlyphs">I turn complex systems into</text>
+<text class="sans" x="64" y="292" font-size="27" font-weight="600" fill="#e6edf3" textLength="224" lengthAdjust="spacingAndGlyphs">interfaces people</text>
+<path d="M298 300q47.5 -9 95.0 -3t103.0 -4" fill="none" stroke="#ff6a1a" stroke-width="9" stroke-linecap="round" opacity="0.95"/>
+<text class="sans" x="302" y="292" font-size="27" font-weight="600" fill="#e6edf3" textLength="190" lengthAdjust="spacingAndGlyphs">actually enjoy</text>
+<text class="sans" x="502" y="292" font-size="27" font-weight="600" fill="#e6edf3" textLength="86" lengthAdjust="spacingAndGlyphs">using.</text>
+<rect x="64" y="332" width="266" height="40" rx="20" fill="#e6edf3"/>
+<text class="sans" x="82" y="359" font-size="19" font-weight="800" fill="#0d1117">2</text>
+<text class="sans" x="104" y="358" font-size="14" font-weight="600" fill="#0d1117" textLength="212" lengthAdjust="spacingAndGlyphs">years · Japanese clients</text>
+<rect x="344" y="333" width="206" height="38" rx="19" fill="none" stroke="#e6edf3" stroke-width="1.6"/>
+<circle cx="366" cy="352" r="5" fill="#e6edf3"/>
+<text class="sans" x="380" y="358" font-size="14" font-weight="600" fill="#e6edf3" textLength="158" lengthAdjust="spacingAndGlyphs">Open to freelance work</text>
+<text class="mono" x="64" y="414" font-size="13" letter-spacing="1.4" fill="#8b949e" textLength="486" lengthAdjust="spacing">REACT · NEXT.JS · TYPESCRIPT · TAILWIND · PRISMA · AWS</text>
+</svg>
